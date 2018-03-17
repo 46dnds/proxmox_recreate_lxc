@@ -8,8 +8,11 @@ usage:
 
 bash recreate_ct.sh -c 100 -a -t local:vztmpl/ubuntu-16.04-standard_16.04-1_amd64.tar.gz
 
-what this is doing:
+# what this is doing:
 -c recreate container #100
+
 the script will parse config file, stop original container, destroy it, create with same specs
+
 -a attach container after so you have a shell
+
 -t use specified template (in this case ubuntu server 16.04)
